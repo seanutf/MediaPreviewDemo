@@ -42,5 +42,6 @@ dependencies {
     androidTestImplementation 'androidx.test.espresso:espresso-core:3.4.0'
 
     implementation 'com.guolindev.permissionx:permissionx:1.6.1'
-    implementation 'com.github.seanutf:MediaPreviewGrid:0.0.3'
+    implementation 'com.github.seanutf:MediaPreviewGrid:0.0.9'
+    //api 'com.github.seanutf:MediaQueryProvider:0.0.23'
 }
