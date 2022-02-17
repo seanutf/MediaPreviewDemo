@@ -1,3 +1,4 @@
 <resources>
     <string name="app_name">MediaPreviewDemo</string>
+    <string name="app_sure">确定</string>
 </resources>

@@ -1,6 +1,29 @@
 <?xml version="1.0" encoding="utf-8"?>
-<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
     android:layout_width="match_parent"
-    android:layout_height="match_parent">
-
-</androidx.constraintlayout.widget.ConstraintLayout>
+    android:layout_height="match_parent"
+    xmlns:tool="http://schemas.android.com/apk/res-auto">
+    <androidx.core.widget.NestedScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+            <include layout="@layout/layout_ui_setting"
+                android:id="@+id/uiSettingPart"/>
+            <include layout="@layout/layout_query_settings"
+                android:id="@+id/querySettingsPart"/>
+        </LinearLayout>
+    </androidx.core.widget.NestedScrollView>
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:id="@+id/tvBtnSure"
+        android:layout_alignParentBottom="true"
+        android:text="@string/app_sure"
+        tool:text="@string/app_sure"
+        android:gravity="center"
+        android:textColor="@color/black"
+        android:background="#aaaaaa"
+        android:textSize="18sp"/>
+</RelativeLayout>
