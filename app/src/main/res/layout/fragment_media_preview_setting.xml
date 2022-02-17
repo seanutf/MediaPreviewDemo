@@ -2,7 +2,7 @@
 <RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    xmlns:tool="http://schemas.android.com/apk/res-auto">
+    xmlns:tools="http://schemas.android.com/tools">
     <androidx.core.widget.NestedScrollView
         android:layout_width="match_parent"
         android:layout_height="match_parent">
@@ -21,7 +21,7 @@
         android:id="@+id/tvBtnSure"
         android:layout_alignParentBottom="true"
         android:text="@string/app_sure"
-        tool:text="@string/app_sure"
+        tools:text="@string/app_sure"
         android:gravity="center"
         android:textColor="@color/black"
         android:background="#aaaaaa"
