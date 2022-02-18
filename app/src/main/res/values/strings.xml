@@ -1,4 +1,7 @@
 <resources>
     <string name="app_name">MediaPreviewDemo</string>
     <string name="app_sure">确定</string>
+    <string name="app_ui_config_title">UI设置</string>
+    <string name="app_query_config_title">查找设置</string>
+    <string name="app_not_support">暂不支持</string>
 </resources>
